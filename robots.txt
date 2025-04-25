@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://ulkuehn.github.io/dim/sitemap.xml

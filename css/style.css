@@ -19,19 +19,6 @@ body {
   margin: 0 30px 0 30px;
 }
 
-img.flag {
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-}
-
-a > img.flag {
-  opacity: 50%;
-}
-a > img.flag:hover {
-  opacity: 100%;
-}
-
 p {
   margin: 10px 0 10px 0;
 }
@@ -55,15 +42,24 @@ h3 {
   font-size: 20px;
 }
 
-.accordion-button {
-  margin-bottom: 4px;
-}
-
 /* nav */
 
 .navbar {
   background-color: #7678ed80;
   font-weight: bold;
+}
+
+img.flag {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+a > img.flag {
+  opacity: 50%;
+}
+a > img.flag:hover {
+  opacity: 100%;
 }
 
 /* carousel */
@@ -79,6 +75,17 @@ h3 {
 .carousel-caption {
   transform: translateY(90%);
   color: black;
+}
+
+.carousel-item img {
+  margin: 10px;
+  box-shadow: 0 0 10px black;
+}
+
+/* accordion */
+
+.accordion-button {
+  margin-bottom: 4px;
 }
 
 /* media */
